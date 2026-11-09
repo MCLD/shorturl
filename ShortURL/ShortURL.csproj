@@ -6,7 +6,7 @@
     <Company>Maricopa County Library District</Company>
     <Copyright>Copyright 2019 Maricopa County Library District</Copyright>
     <Description>ShortURL is a cross-platform Web-based application for creating URLs and tracking click counts.</Description>
-    <FileVersion>1.1.0.0</FileVersion>
+    <FileVersion>1.1.1.0</FileVersion>
     <PackageLicenseUrl>https://github.com/mcld/shorturl/blob/master/LICENSE</PackageLicenseUrl>
     <PackageProjectUrl>https://github.com/mcld/shorturl/</PackageProjectUrl>
     <PackageReleaseNotes>See https://github.com/mcld/shorturl/releases/latest</PackageReleaseNotes>
@@ -15,7 +15,7 @@
     <RepositoryUrl>https://github.com/mcld/shorturl/</RepositoryUrl>
     <TargetFramework>net8.0</TargetFramework>
     <UserSecretsId>51b5f8d5-f082-48c5-831e-74000f5726f7</UserSecretsId>
-    <Version>1.1.0</Version>
+    <Version>1.1.1</Version>
   </PropertyGroup>
 
   <ItemGroup>
@@ -25,10 +25,10 @@
   </ItemGroup>
 
   <ItemGroup>
-    <PackageReference Include="Microsoft.Extensions.Caching.StackExchangeRedis" Version="8.0.17" />
+    <PackageReference Include="Microsoft.Extensions.Caching.StackExchangeRedis" Version="8.0.33" />
     <PackageReference Include="Serilog.AspNetCore" Version="9.0.0" />
     <PackageReference Include="Serilog.Settings.Configuration" Version="9.0.0" />
-    <PackageReference Include="Serilog.Sinks.Console" Version="6.0.0" />
+    <PackageReference Include="Serilog.Sinks.Console" Version="6.1.1" />
     <PackageReference Include="Serilog.Sinks.File" Version="7.0.0" />
     <PackageReference Include="Serilog.Sinks.Seq" Version="8.0.0" />
   </ItemGroup>
